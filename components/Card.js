@@ -39,7 +39,7 @@ export default function Card({ author, title, url }) {
         &nbsp; Delete
 
       </Text>
-      <Text onPress={dispatch({type: 'DELETE_BOOK', payload: title})}>
+      <Text >
         <Image
           style={styles.textIcons2}
           source={require('../assets/pencil.png')}
